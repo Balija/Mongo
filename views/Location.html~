@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+.box {
+	background-color: #d0f0f6;
+	text-align: center;
+	padding: 8px;
+}
+</style>
+</head>
+<body>
+<form id = "Reading" action = "/locationoperation", method = "post">
+<div class= "box">
+<fieldset>
+<legend><font color = "brown">Reading Documents Based on Job_Location</font></legend>
+<div><label>Job Location:</label><span class ="mandatory" style="color:red">*</span>&nbsp;&nbsp;<input type="text" name = "emplocation"></div>&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+
+<p align="center">
+    <input type="submit" value=" Submit" name="B4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value=" Back" name="B5" onclick="history.go(-1);"></td>
+</fieldset>
+</div>
+</form>
+</body>
+
+</html>

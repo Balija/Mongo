@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+.box {
+	background-color: #d0f0f6;
+	text-align: center;
+	padding: 8px;
+}
+</style>
+</head>
+<body>
+<form id = "Reading" action = "/salaryoperation", method = "post">
+<div class= "box">
+<fieldset>
+<legend><font color="brown">Reading Documents Based on Employee_Salary</font></legend>
+<div><label>Low Salary:</label><span class ="mandatory" style="color:red">*</span>&nbsp;&nbsp;<input type="text" name = "num1"></div>&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+<div><label>High Salary:</label><span class ="mandatory" style="color:red">*</span>&nbsp;&nbsp;<input type="text" name = "num2"></div>&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+<p align="center">
+    <input type="submit" value=" Submit" name="B4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value=" Back" name="B5" onclick="history.go(-1);"></td>
+</fieldset>
+</div>
+</form>
+</body>
+
+</html>

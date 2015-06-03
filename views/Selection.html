@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+.box {
+	background-color: #d0f0f6;
+	text-align: center;
+	padding: 8px;
+}
+
+
+.column2{
+width:249px;
+font-size: 0.875em;
+padding:0 20px 0;
+}
+.column2 input[type="radio"] {
+float: left;
+}
+.column2 span label{
+margin-left: 25px;
+display: block;
+}
+
+.end {
+	padding:10px;
+}
+</style>
+</head>
+
+<body>
+<form id = "loginAfter" action = "/performaction", method = "post">
+<div class = "box">
+<fieldset>
+<legend>Select Required Option</legend>
+<div class = "column2">
+<span>
+<label for="Inserting"> <input type="radio" name="type" value="Inserting" id="Insert_1" /> Inserting.</label><br />
+<label for="Reading"> <input type="radio" name="type" value="Reading" id="Reading_2" /> Reading.</label><br />
+<label for="Updating"> <input type="radio" name="type" value="Updating" id="Update_3" /> Updating.</label><br />
+<label for="Deleting"> <input type="radio" name="type" value="Deleting" id="Delete_4" /> Deleting.</label><br />
+</span>
+</div>
+</body>
+</filedset>
+</div>
+<div class = "end">
+
+<p align="center">
+    <input type="submit" value=" Submit" name="B4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value=" Back" name="B5" onclick="history.go(-1);"></td>
+
+</form>
+</html>
+

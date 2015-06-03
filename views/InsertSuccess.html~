@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+p{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+</script>
+
+</head>
+<body>
+<p><font color="green">Inserted Successfully</font></p>
+<p align="center">
+		<button type="button" class="myButton"
+			style="margin-left: auto; margin-right: auto; display: block; margin-top: 0%; margin-bottom: 0%"
+			onclick="history.go(-1);">Back</button>
+	</p>
+</body>
+</html>

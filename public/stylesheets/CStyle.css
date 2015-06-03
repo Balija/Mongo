@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background:"#F0F8FF"
+}
+
+body{
+	padding:50px;
+	font-family:Times New Roman;
+	font-size:13px;
+}
+h1{
+	
+	font-family:Serif;
+        font-size:100%;
+   	color: Orange;
+   
+}
+
+h2{
+	
+	font-family:Serif;
+        font-size:100%;
+   	color:Blue;
+   
+}
+
+#head{
+    width: 1018.04px;
+    height: 20px;
+    background-color: 	#FFE4E1;
+    border: 1px solid navy;
+    padding: 1%;
+}
+#border {
+    background-color:#F8F8F8 ;
+    height:200px;
+    width: 1000px;
+    padding: 20px;
+    border: 1px solid navy;
+   
+}
+calendar,
+calendar2,{
+		
+			border: 1px solid #909090;
+			font-family: Tahoma;
+			font-size: 12px;
+		}
+
+.submit{
+	
+	/* Submit button */
+	
+	opacity:0.9;
+	top:130px;
+	left:25px;
+	width: 239px;
+	height:36px;
+	cursor:pointer;
+	border-radius:6px;
+	box-shadow:0 1px 1px #888;
+	border:none;
+	color:#FFFFFF
+	font:14px/36px 'Segoe UI Light','Segoe UI',Arial,sans-serif;
+		
+}
+
+.logoutLblPos{
+
+   position:relative;
+   right:25px;
+   top:15px;
+  
+}
+
+.mandatory{
+color : red;
+
+}
+
+
+
+

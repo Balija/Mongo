@@ -1,0 +1,28 @@
+extends layout
+
+block content
+
+  table(border= 1)
+       tr
+            th Id
+            th Name
+            th sex
+            th Address
+            th MobileNo
+            th Designation
+            th Job Location
+            th Salary
+            th Email-Id
+          - each item in emplist                  
+                       tr
+                         td= item.emp_id
+                         td= item.emp_name
+                         td= item.esex
+                         td= item.emp_address
+                         td= item.mobile_no
+                         td= item.designation
+                         td= item.job_location
+                         td= item.esalary
+                         td= item.email_id
+          
+                   

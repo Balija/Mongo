@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+</style>
+</head>
+<body bgcolor="#FFFFFF">
+
+    <form name="emp" action="/updateaction" onsubmit="return validate_form();" method="post">
+    <table align="center" width=40% width="100%" cellspacing="2" cellpadding="2" border="5">
+    <tr>
+    <td colspan="2" align="center"><b>Update Required Fields.</b></td>
+    </tr>
+    
+    <tr>
+    <td align="left" valign="top" width="41%">Employee Number<span style="color:red">*</span></td>
+    <td width="57%">
+    <input type="text" value="" name="num" onkeypress="return isNumberKey(event)" size="24"></td>
+    </tr>
+
+    <tr>
+    <td align="left" valign="top" width="41%">Employee Name</td>
+     
+    <td width="57%"><input type="text" value="" name="emp_name" size="24"></td>
+    </tr>
+
+    <tr>
+    <td align="left" valign="top" width="41%">Address</td>
+     
+    <td width="57%"><textarea rows="4" maxlen="200" name="S2" cols="20"></textarea></td>
+    </tr
+    <tr >
+     
+    <td align="left" valign="top" width="41%">Contact Number</td>
+    <td width="57%">
+    <input type="text" value="" onkeypress="return isNumberKey(event)" name="txtFName1" size="24"></td>
+    </tr>
+    <tr >
+    <td align="left" valign="top" width="41%">Job Location</td>
+    <td width="57%"><select name="mydropdown">
+    <option value="Default">Default</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Mysore">Mysore</option>
+    <option value="California">California</option>
+     
+    </select></td>
+     
+    </tr>
+     
+    <tr >
+    <td align="left" valign="top" width="41%">Designation</td>
+    <td width="57%">
+    <select name="mydropdown1">
+    <option value="Default">Default</option>
+    <option value="Software Engineer">Software Engineer</option>
+    <option value="Senior Software Engineer">Senior Software Engineer</option>
+    <option value="Technology Analyst">Technology Analyst</option>
+    <option value="Technology Lead">Technology Lead</option>
+    <option value="Project Manager">Project Manager</option>
+     
+     
+    </select></td>
+     
+    </tr>
+
+    <tr>
+    <td align="left" valign="top" width="41%">Salary</td>
+    <td width="57%">
+    <input type="text" value="" onkeypress="return isNumberKey(event)" name="salary" size="24"></td>
+    </tr>
+
+    <tr>
+    <td align="left" valign="top" width="41%">Email</td>
+    <td width="57%">
+    <input type="text" value="" name="email_id" size="24"></td>
+    </tr>
+    <tr>
+    <td colspan="2">
+    <p align="center">
+    <input type="submit" value=" Submit" name="B4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value=" Reset All " name="B5"></td>
+    </tr>
+     
+    </table>
+    </form>
+
+<p align="center">
+		<button type="button" class="myButton"
+			style="margin-left: auto; margin-right: auto; display: block; margin-top: 0%; margin-bottom: 0%"
+			onclick="history.go(-1);">Back</button>
+	</p>
+
+</body>
+</html>

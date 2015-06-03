@@ -1,0 +1,11 @@
+table(border='1')
+ thead
+   tr
+     th EmployeeID
+     th EmployeeName
+ tbody
+  - each items, i in values
+   tr
+     td= items.id
+     td= items.name
+

@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+.box {
+	background-color: #d0f0f6;
+	text-align: center;
+	padding: 8px;
+}
+</style>
+</head>
+<body>
+<form id = "Deleting" action = "/deleteaction", method = "post">
+<div class= "box">
+<fieldset>
+<legend><font color = "brown">Delete Record Based on Employee_Id</font></legend>
+<div><label>Employee Id:</label><span class ="mandatory" style="color:red">*</span>&nbsp;&nbsp;<input type="text" name = "num"></div>&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+
+<p align="center">
+    <input type="submit" value=" Submit" name="B4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value=" Back" name="B5" onclick="history.go(-1);"></td>
+</fieldset>
+</div>
+</form>
+</body>
+
+</html>

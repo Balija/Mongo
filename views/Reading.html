@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+.box {
+	background-color: #d0f0f6;
+	text-align: center;
+	padding: 8px;
+}
+
+
+.column2{
+width:249px;
+font-size: 0.875em;
+padding:0 20px 0;
+}
+.column2 input[type="radio"] {
+float: left;
+}
+.column2 span label{
+margin-left: 25px;
+display: block;
+}
+
+.end {
+	padding:10px;
+}
+</style>
+</head>
+
+<body>
+<form id = "loginAfter" action = "/chooseoperation", method = "post">
+<div class = "box">
+<fieldset>
+<legend><font color = "brown">Choose Required Option To Read Documents</font></legend><br />
+<div class = "column2">
+<span>
+<label for="Based on Employee ID"> <input type="radio" name="type" value="EmployeeId" id="ID" />Based on Employee ID.</label><br />
+<label for="Based on Employee Name"> <input type="radio" name="type" value="EmployeeName" id="Name" />Based on Employee Name.</label><br />
+<label for="Based on Designation"> <input type="radio" name="type" value="Designation" id="edesignation" />Based on Designation.</label><br />
+<label for="Based on Salary"> <input type="radio" name="type" value="Salary" id="esalary" />Based on Employee Salary.</label><br />
+<label for="Based on Job Location"> <input type="radio" name="type" value="Location" id="joblocation" />Based on Job Location.</label><br />
+</span>
+</div>
+</body>
+</filedset>
+</div>
+<div class = "end">
+<p align="center">
+    <input type="submit" value=" Submit" name="B4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value=" Back" name="B5" onclick="history.go(-1);"></td>
+</form>
+</html>
+
